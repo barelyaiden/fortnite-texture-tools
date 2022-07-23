@@ -32,3 +32,15 @@ class TextureConverter:
             )
         else:
             b_roughness.save(f'{self.image[:len(self.image) - 6]}_R.{self.file_format}')
+
+    def invert_green(self):
+        '''
+        The invert_green() function inverts the green channel of the image,
+        most commonly used for _N textures to change between
+        DirectX and OpenGL normals.
+        '''
+        normal_texture = Image.open(self.image)
+        red, green, blue = normal_texture.split()
+        Image.merge('RGB', (red, ImageChops.invert(green), blue)).save(
+            f'{self.image}.{self.file_format}'
+        )
