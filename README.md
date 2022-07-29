@@ -2,6 +2,7 @@
 ## A set of tools to work with Fortnite texture files.
 
 A small Python GUI application for converting file formats, separating mask textures and switching normal map files between DirectX and OpenGL normals.
+
 All publicly available builds are uploaded to the `Releases` page of the repository.
 
 ![fttScreenshot](https://user-images.githubusercontent.com/99072163/181739003-7f59db07-c331-4fd2-b676-2fc46e26fe4a.png)
