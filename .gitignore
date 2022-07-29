@@ -1,3 +1,6 @@
 .vscode/
-utilities/__pycache__/
+assets/tools/__pycache__/
+build/
+dist/
 venv/
+Fortnite Texture Tools.spec
