@@ -176,9 +176,17 @@ class MainWindow(QMainWindow):
 
         message.exec()
 
-app = QApplication(sys.argv)
+def main():
+    '''
+    The main() function is the entry point to the application which
+    starts a window and shows the user interface.
+    '''
+    app = QApplication(sys.argv)
 
-window = MainWindow()
-window.show()
+    window = MainWindow()
+    window.show()
 
-app.exec()
+    app.exec()
+
+if __name__ == '__main__':
+    main()

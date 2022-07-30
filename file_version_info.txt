@@ -6,8 +6,8 @@ VSVersionInfo(
   ffi=FixedFileInfo(
     # filevers and prodvers should be always a tuple with four items: (1, 2, 3, 4)
     # Set not needed items to zero 0.
-    filevers=(1, 0, 0, 0),
-    prodvers=(1, 0, 0, 0),
+    filevers=(1, 0, 1, 0),
+    prodvers=(1, 0, 1, 0),
     # Contains a bitmask that specifies the valid bits 'flags'r
     mask=0x3f,
     # Contains a bitmask that specifies the Boolean attributes of the file.
@@ -31,12 +31,12 @@ VSVersionInfo(
         '040904b0',
         [StringStruct('CompanyName', 'barelyaiden'),
         StringStruct('FileDescription', 'A set of tools to work with Fortnite textures files.'),
-        StringStruct('FileVersion', '1.0.0'),
+        StringStruct('FileVersion', '1.0.1'),
         StringStruct('InternalName', 'python.exe'),
         StringStruct('LegalCopyright', 'Copyright (C) 2022 barelyaiden. MIT Licensed'),
         StringStruct('OriginalFilename', 'python.exe'),
         StringStruct('ProductName', 'Fortnite Texture Tools'),
-        StringStruct('ProductVersion', '1.0.0')])
+        StringStruct('ProductVersion', '1.0.1')])
       ]), 
     VarFileInfo([VarStruct('Translation', [1033, 1200])])
   ]

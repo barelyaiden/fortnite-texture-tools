@@ -46,7 +46,7 @@
      <widget class="QTextBrowser" name="textBrowser">
       <property name="geometry">
        <rect>
-        <x>10</x>
+        <x>11</x>
         <y>40</y>
         <width>256</width>
         <height>192</height>
@@ -233,7 +233,7 @@
      <widget class="QTextBrowser" name="textBrowser_2">
       <property name="geometry">
        <rect>
-        <x>10</x>
+        <x>11</x>
         <y>40</y>
         <width>256</width>
         <height>192</height>
@@ -373,7 +373,7 @@
      <widget class="QTextBrowser" name="textBrowser_3">
       <property name="geometry">
        <rect>
-        <x>10</x>
+        <x>11</x>
         <y>40</y>
         <width>256</width>
         <height>192</height>
@@ -457,6 +457,33 @@
        <set>Qt::AlignCenter</set>
       </property>
       <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>About</string>
+     </attribute>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>521</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Fortnite Texture Tools&lt;/p&gt;&lt;p&gt;Version 1.0.1&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;Created by:&lt;/p&gt;&lt;p&gt;barelyaiden&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/barelyaiden/fortnite-texture-tools&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;GitHub Repository&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="openExternalLinks">
        <bool>true</bool>
       </property>
      </widget>
